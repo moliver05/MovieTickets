@@ -33,10 +33,11 @@ $(document).ready(function() {
 
 
 //
-  var morningTime = 8.50;
-  var afternoonTime = 11.50;
+  // var ticketSale = {
+  //   time1: ""
+  // }
 
-  
+
 
 
 
