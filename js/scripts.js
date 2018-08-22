@@ -7,34 +7,39 @@ $(document).ready(function() {
 
     } else if (age < 18) {
       $('#avengers').show();
+      $("#dp2").hide();
+      $("#mi5").hide();
 
     } else if (age > 55) {
-      $('#avengers').show();
-      $('#dp2').show();
-      $('#mi5').show();
       alert("You Qualify for Discount!");
+
     }
 
     $("#movie1").click(function(event){
-      $(".tabcontent").show();
+    $("#tabCon").toggle();
       event.preventDefault
 
- });
+    });
+
+    $("#movie2").click(function(event){
+    $("#tabCon2").toggle();
+      event.preventDefault
+    });
+
+    $("#movie3").click(function(event){
+    $("#tabCon3").toggle();
+      event.preventDefault
+    });
+
+
+//
+  var morningTime = 8.50;
+  var afternoonTime = 11.50;
+
+  
+
+
+
+
+
 });
-
-
-
-//     $(".btn#movie1").click(function(event) {
-//     $("#movie1").fadeToggle();
-//     event.preventDefault
-// });
-//
-//     $(".btn#movie2").click(function(event) {
-//     $("#movie2").fadeToggle();
-//     event.preventDefault
-// });
-//
-//   $(".btn#movie3").click(function(event) {
-//   $("#movie3").fadeToggle();
-
-// });

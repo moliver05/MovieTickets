@@ -2,10 +2,8 @@
   text-align: center;
 }
 
-
-
-.tabcontent{
-  display: hide;
+#tabCon, #tabCon2, #tabCon3 {
+  display: none;
 }
 
 #avengers {
